@@ -1,7 +1,7 @@
 G.AddData({
-    Name:'Thot Mod',
-    Author:'fancy and torcado',
-    desc:'This mod makes it possible to create thots. Thots are an improved version of Dreamers.',
+    Name:'Thot Mod Remastered',
+    Author:'Ben, fancy and torcado',
+    desc:'This mod makes it possible to create thots. Thots are an improved version of Dreamers. the remastered just makes it barder to get thots, thats all',
     engineVersion:1,
     manifest:'https://rawgit.com/Generatoror/hello-world/master/catManifest.js',
     requires:['Default dataset*'],
@@ -12,7 +12,7 @@ G.AddData({
 		name:'thot',
 		desc:'@generates [insight] more frequently than a [dreamer]<>A [thot] spends their time observing, thinking, and wondering why things are the way they are.',
 		icon:[0,0,'thotSheet'],
-		cost:{'food':50},
+		cost:{'food':100},
 		use:{'worker':1},
 		effects:[
 			{type:'gather',what:{'insight':0.3}},
